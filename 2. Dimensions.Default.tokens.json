@@ -1,0 +1,280 @@
+{
+  "Border Radius": {
+    "borderRadius": {
+      "$type": "number",
+      "$value": 4
+    },
+    "borderRadiusLG": {
+      "$type": "number",
+      "$value": 8
+    },
+    "borderRadiusSM": {
+      "$type": "number",
+      "$value": 4
+    },
+    "borderRadiusXS": {
+      "$type": "number",
+      "$value": 2
+    }
+  },
+  "Size": {
+    "sizeStep": {
+      "$type": "number",
+      "$value": 2
+    },
+    "sizeUnit": {
+      "$type": "number",
+      "$value": 4
+    },
+    "controlInteractiveSize": {
+      "$type": "number",
+      "$value": 16
+    },
+    "Base": {
+      "size": {
+        "$type": "number",
+        "$value": 12
+      },
+      "sizeLG": {
+        "$type": "number",
+        "$value": 24
+      },
+      "sizeMD": {
+        "$type": "number",
+        "$value": 20
+      },
+      "sizeMS": {
+        "$type": "number",
+        "$value": 16
+      },
+      "sizeSM": {
+        "$type": "number",
+        "$value": 8
+      },
+      "sizeXL": {
+        "$type": "number",
+        "$value": 32
+      },
+      "sizeXS": {
+        "$type": "number",
+        "$value": 4
+      },
+      "sizeXXL": {
+        "$type": "number",
+        "$value": 48
+      },
+      "sizeXXS": {
+        "$type": "number",
+        "$value": 2
+      }
+    },
+    "Height": {
+      "controlHeight": {
+        "$type": "number",
+        "$value": 28
+      },
+      "controlHeightLG": {
+        "$type": "number",
+        "$value": 40
+      },
+      "controlHeightSM": {
+        "$type": "number",
+        "$value": 32
+      },
+      "controlHeightXS": {
+        "$type": "number",
+        "$value": 16
+      }
+    },
+    "Line Width": {
+      "lineWidth": {
+        "$type": "number",
+        "$value": 1
+      },
+      "lineWidthBold": {
+        "$type": "number",
+        "$value": 2
+      },
+      "lineWidthFocus": {
+        "$type": "number",
+        "$value": 4
+      },
+      "controlOutlineWidth": {
+        "$type": "number",
+        "$value": 2
+      }
+    },
+    "Screen Size": {
+      "screenLG": {
+        "$type": "number",
+        "$value": 992
+      },
+      "screenLGMax": {
+        "$type": "number",
+        "$value": 1199
+      },
+      "screenLGMin": {
+        "$type": "number",
+        "$value": "{Size.Screen Size.screenLG}"
+      },
+      "screenMD": {
+        "$type": "number",
+        "$value": 768
+      },
+      "screenMDMax": {
+        "$type": "number",
+        "$value": 991
+      },
+      "screenMDMin": {
+        "$type": "number",
+        "$value": "{Size.Screen Size.screenMD}"
+      },
+      "screenSM": {
+        "$type": "number",
+        "$value": 576
+      },
+      "screenSMMax": {
+        "$type": "number",
+        "$value": 767
+      },
+      "screenSMMin": {
+        "$type": "number",
+        "$value": "{Size.Screen Size.screenSM}"
+      },
+      "screenXL": {
+        "$type": "number",
+        "$value": 1200
+      },
+      "screenXLMax": {
+        "$type": "number",
+        "$value": 1599
+      },
+      "screenXLMin": {
+        "$type": "number",
+        "$value": "{Size.Screen Size.screenXL}"
+      },
+      "screenXS": {
+        "$type": "number",
+        "$value": 480
+      },
+      "screenXSMax": {
+        "$type": "number",
+        "$value": 575
+      },
+      "screenXSMin": {
+        "$type": "number",
+        "$value": "{Size.Screen Size.screenXS}"
+      },
+      "screenXXL": {
+        "$type": "number",
+        "$value": 1600
+      },
+      "screenXXLMin": {
+        "$type": "number",
+        "$value": "{Size.Screen Size.screenXXL}"
+      }
+    },
+    "sizePopupArrow": {
+      "$type": "number",
+      "$value": 16
+    }
+  },
+  "Space": {
+    "Margin": {
+      "margin": {
+        "$type": "number",
+        "$value": "{Size.Base.size}"
+      },
+      "marginLG": {
+        "$type": "number",
+        "$value": "{Size.Base.sizeLG}"
+      },
+      "marginMD": {
+        "$type": "number",
+        "$value": "{Size.Base.sizeMD}"
+      },
+      "marginSM": {
+        "$type": "number",
+        "$value": "{Size.Base.sizeSM}"
+      },
+      "marginXL": {
+        "$type": "number",
+        "$value": "{Size.Base.sizeXL}"
+      },
+      "marginXS": {
+        "$type": "number",
+        "$value": "{Size.Base.sizeXS}"
+      },
+      "marginXXL": {
+        "$type": "number",
+        "$value": "{Size.Base.sizeXXL}"
+      },
+      "marginXXS": {
+        "$type": "number",
+        "$value": "{Size.Base.sizeXXS}"
+      }
+    },
+    "Padding": {
+      "padding": {
+        "$type": "number",
+        "$value": "{Size.Base.sizeSM}"
+      },
+      "paddingLG": {
+        "$type": "number",
+        "$value": "{Size.Base.sizeLG}"
+      },
+      "paddingMD": {
+        "$type": "number",
+        "$value": "{Size.Base.sizeMD}"
+      },
+      "paddingSM": {
+        "$type": "number",
+        "$value": "{Size.Base.sizeSM}"
+      },
+      "paddingXL": {
+        "$type": "number",
+        "$value": "{Size.Base.sizeXL}"
+      },
+      "paddingXS": {
+        "$type": "number",
+        "$value": "{Size.Base.sizeXS}"
+      },
+      "paddingXXS": {
+        "$type": "number",
+        "$value": "{Size.Base.sizeXXS}"
+      },
+      "paddingContentHorizontal": {
+        "$type": "number",
+        "$value": "{Size.Base.sizeMS}"
+      },
+      "paddingContentHorizontalLG": {
+        "$type": "number",
+        "$value": "{Size.Base.sizeLG}"
+      },
+      "paddingContentHorizontalSM": {
+        "$type": "number",
+        "$value": "{Size.Base.size}"
+      },
+      "paddingContentVertical": {
+        "$type": "number",
+        "$value": "{Size.Base.sizeSM}"
+      },
+      "paddingContentVerticalLG": {
+        "$type": "number",
+        "$value": "{Size.Base.sizeMS}"
+      },
+      "paddingContentVerticalSM": {
+        "$type": "number",
+        "$value": "{Size.Base.sizeXS}"
+      },
+      "controlPaddingHorizontal": {
+        "$type": "number",
+        "$value": 12
+      },
+      "controlPaddingHorizontalSM": {
+        "$type": "number",
+        "$value": 8
+      }
+    }
+  }
+}
