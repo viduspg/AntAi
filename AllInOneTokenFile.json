@@ -343,7 +343,7 @@
       "darkPopupBg": "#18181b"
     },
     "Button": {
-     {
+     
   "borderColorDisabled": "#efdfdf",
   "dangerColor": "#fae3e3",
   "defaultActiveBg": "#ece5e5",
@@ -380,7 +380,7 @@
   "colorText": "#000000de",
   "colorTextDisabled": "#0000003d",
   "colorTextLightSolid": "#fffffffb"
-}
+
    },
     "Slider": {
       "handleSize": 8,
